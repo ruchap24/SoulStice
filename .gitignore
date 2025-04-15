@@ -40,3 +40,17 @@ Thumbs.db
 *.swp
 *.swo
 *.orig
+
+src/
+├── app/
+│   └── store.js          # Redux store configuration
+├── features/             # Feature-specific slices
+│   └── auth/             # Example: Authentication
+│       ├── authSlice.js  # Redux slice for auth
+│       └── Auth.jsx      # React component
+├── components/           # Reusable UI components
+├── pages/                # Page components (e.g., Login, Dashboard)
+├── services/             # API service layer (Axios setup)
+├── assets/               # Images, fonts, etc. (keep react.svg here)
+├── main.jsx              # App entry point
+└── App.jsx               # Root component
